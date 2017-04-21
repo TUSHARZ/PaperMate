@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/diagonal"
+    tools:context="com.example.acer.firstapp.MainScreen">
+
+    <ImageButton
+        android:id="@+id/btnAbout"
+        style="@style/btnstyle1"
+        android:scaleType="centerInside"
+        android:src="@drawable/a"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp" />
+
+    <ImageButton
+        android:id="@+id/btnSemester"
+        style="@style/btnstyle1"
+        android:scaleType="fitCenter"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/semester"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/btnAbout"
+        android:layout_toEndOf="@+id/btnAbout"
+        android:layout_toRightOf="@+id/btnAbout"/>
+
+    <ImageButton
+        android:id="@+id/btnContact"
+        style="@style/btnstyle1"
+        android:scaleType="fitCenter"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/contact"
+        android:layout_below="@+id/btnSemester"
+        android:layout_toStartOf="@+id/btnSemester"
+        android:layout_toLeftOf="@+id/btnSemester"/>
+
+    <ImageButton
+        android:id="@+id/btnSyllabus"
+        style="@style/btnstyle1"
+        android:scaleType="fitCenter"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/syllabus"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/btnAbout"
+        android:layout_toStartOf="@+id/btnAbout"
+        android:layout_toLeftOf="@+id/btnAbout"/>
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="match_parent"
+        android:src="@drawable/first"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

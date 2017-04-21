@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="@drawable/gry"
+    tools:context="com.example.acer.firstapp.help">
+
+    <TextView
+        android:id="@+id/tvabout"
+        style="@style/text2"
+        android:text="HELP"
+        android:textColor="#ba3333"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+
+        style="@style/text"
+        android:layout_marginTop="15dp"
+        android:textColor="#000000"
+        android:paddingLeft="10dp"
+        android:layout_below="@+id/tvabout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="If you are facing any problem ,try these :\n\n
+
+• Grant storage permissions in settings if app   closes on clicking on download button.\n
+
+• Update Google Play Services.\n
+
+• If any content is unavailable or missing then  make sure to check ' What's New ' section for the  same.\n
+  Also check the section for updated material as newer files get added there straight.\n
+
+• Make sure that your ' DOWNLOAD MANAGER ' is enabled.\n
+
+•Do a fresh install. ( first completely uninstall)\n\n
+
+ If you followed along and still there's a bug, go ahead and Contact the devs"/>
+
+
+</RelativeLayout>

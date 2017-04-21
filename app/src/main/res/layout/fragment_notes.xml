@@ -1,0 +1,80 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bb5"
+    android:layout_height="match_parent"
+    tools:context="com.example.acer.firstapp.NotesFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="vertical">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/tvunit1" android:textSize="25dp" android:layout_marginLeft="20dp" android:layout_marginTop="23dp" android:textColor="#000" android:text="Unit 1"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/tvunit2" android:textSize="25dp" android:layout_marginLeft="20dp" android:layout_marginTop="25dp" android:textColor="#000" android:text="Unit 2"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/tvunit3" android:textSize="25dp" android:layout_marginLeft="20dp" android:layout_marginTop="25dp" android:textColor="#000" android:text="Unit 3"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/tvunit4" android:textSize="25dp" android:layout_marginLeft="20dp" android:layout_marginTop="25dp" android:textColor="#000" android:text="Unit 4"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/tvextras" android:textSize="25dp" android:layout_marginLeft="20dp" android:layout_marginTop="25dp" android:textColor="#000" android:text="Extras"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/tvnew" android:textSize="25dp" android:layout_marginLeft="20dp" android:layout_marginTop="25dp" android:textColor="#000" android:text="What's New !!"/>
+
+</LinearLayout>
+
+
+    -<LinearLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="vertical">
+
+
+    -<LinearLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="horizontal">
+
+    <ImageButton android:layout_height="44dp" android:layout_width="44dp" android:id="@+id/ibdownload1" android:layout_marginLeft="220dp" android:layout_marginTop="19dp" style="@style/btnstyle1" android:scaleType="fitCenter" android:src="@drawable/download" android:onClick="Notes" android:layout_marginRight="20dp"/>
+
+    <ImageButton android:layout_height="44dp" android:layout_width="44dp" android:id="@+id/ibpreview1" android:layout_marginTop="19dp" style="@style/btnstyle1" android:scaleType="fitCenter" android:src="@drawable/preview" android:onClick="Notes"/>
+
+</LinearLayout>
+
+
+    -<LinearLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="horizontal">
+
+    <ImageButton android:layout_height="44dp" android:layout_width="44dp" android:id="@+id/ibdownload2" android:layout_marginLeft="220dp" android:layout_marginTop="17.5dp" style="@style/btnstyle1" android:scaleType="fitCenter" android:src="@drawable/download" android:onClick="Notes" android:layout_marginRight="20dp"/>
+
+    <ImageButton android:layout_height="44dp" android:layout_width="44dp" android:id="@+id/ibpreview2" android:layout_marginTop="17.5dp" style="@style/btnstyle1" android:scaleType="fitCenter" android:src="@drawable/preview" android:onClick="Notes"/>
+
+</LinearLayout>
+
+
+    -<LinearLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="horizontal">
+
+    <ImageButton android:layout_height="44dp" android:layout_width="44dp" android:id="@+id/ibdownload3" android:layout_marginLeft="220dp" android:layout_marginTop="17.5dp" style="@style/btnstyle1" android:scaleType="fitCenter" android:src="@drawable/download" android:onClick="Notes" android:layout_marginRight="20dp"/>
+
+    <ImageButton android:layout_height="44dp" android:layout_width="44dp" android:id="@+id/ibpreview3" android:layout_marginTop="17.5dp" style="@style/btnstyle1" android:scaleType="fitCenter" android:src="@drawable/preview" android:onClick="Notes"/>
+
+</LinearLayout>
+
+
+    -<LinearLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="horizontal">
+
+    <ImageButton android:layout_height="44dp" android:layout_width="44dp" android:id="@+id/ibdownload4" android:layout_marginLeft="220dp" android:layout_marginTop="17.5dp" style="@style/btnstyle1" android:scaleType="fitCenter" android:src="@drawable/download" android:onClick="Notes" android:layout_marginRight="20dp"/>
+
+    <ImageButton android:layout_height="44dp" android:layout_width="44dp" android:id="@+id/ibpreview4" android:layout_marginTop="17.5dp" style="@style/btnstyle1" android:scaleType="fitCenter" android:src="@drawable/preview" android:onClick="Notes"/>
+
+</LinearLayout>
+
+
+    -<LinearLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="horizontal">
+
+    <ImageButton android:layout_height="44dp" android:layout_width="44dp" android:id="@+id/ibdownload5" android:layout_marginLeft="220dp" android:layout_marginTop="17.5dp" style="@style/btnstyle1" android:scaleType="fitCenter" android:src="@drawable/download" android:onClick="Notes" android:layout_marginRight="20dp"/>
+
+    <ImageButton android:layout_height="44dp" android:layout_width="44dp" android:id="@+id/ibpreview5" android:layout_marginTop="17.5dp" style="@style/btnstyle1" android:scaleType="fitCenter" android:src="@drawable/preview" android:onClick="Notes"/>
+
+</LinearLayout>
+
+    <ImageButton android:layout_height="38dp" android:background="#ffd446" android:layout_width="90dp" android:id="@+id/ibclick" android:layout_marginLeft="244dp" android:layout_marginTop="19.5dp" android:scaleType="fitCenter" android:src="@drawable/click" android:onClick="Notes" android:layout_marginRight="20dp"/>
+
+</LinearLayout>
+</FrameLayout>

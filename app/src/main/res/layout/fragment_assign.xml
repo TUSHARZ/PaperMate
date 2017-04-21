@@ -1,0 +1,173 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bb5"
+    android:layout_height="match_parent"
+    tools:context="com.example.acer.firstapp.NotesFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+       
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Assignment 1"
+            android:textColor="#000"
+            android:layout_marginTop="38dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="25dp"
+            android:id="@+id/tvass1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Assignment 2"
+            android:textColor="#000"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="25dp"
+            android:id="@+id/tvass2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Assignment 3"
+            android:textColor="#000"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="25dp"
+            android:id="@+id/tvass3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Assignment 4"
+            android:textColor="#000"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="25dp"
+            android:id="@+id/tvass4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_marginLeft="210dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:id="@+id/ibdownload11"
+                android:onClick="Assign"
+                android:src="@drawable/download"
+                android:scaleType="fitCenter"
+                style="@style/btnstyle1"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+
+            <ImageButton
+                android:layout_marginTop="30dp"
+                android:id="@+id/ibpreview11"
+                android:src="@drawable/preview"
+                android:onClick="Assign"
+                android:scaleType="fitCenter"
+                style="@style/btnstyle1"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_marginLeft="210dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="16dp"
+                android:id="@+id/ibdownload21"
+                android:onClick="Assign"
+                android:src="@drawable/download"
+                android:scaleType="fitCenter"
+                style="@style/btnstyle1"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+
+            <ImageButton
+                android:layout_marginTop="16dp"
+                android:id="@+id/ibpreview21"
+                android:onClick="Assign"
+                android:src="@drawable/preview"
+                android:scaleType="fitCenter"
+                style="@style/btnstyle1"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_marginLeft="210dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="16dp"
+                android:id="@+id/ibdownload31"
+                android:onClick="Assign"
+                android:src="@drawable/download"
+                android:scaleType="fitCenter"
+                style="@style/btnstyle1"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+
+            <ImageButton
+                android:layout_marginTop="16dp"
+                android:id="@+id/ibpreview31"
+                android:onClick="Assign"
+                android:src="@drawable/preview"
+                android:scaleType="fitCenter"
+                style="@style/btnstyle1"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_marginLeft="210dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="16dp"
+                android:id="@+id/ibdownload41"
+                android:onClick="Assign"
+                android:src="@drawable/download"
+                android:scaleType="fitCenter"
+                style="@style/btnstyle1"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+
+            <ImageButton
+                android:layout_marginTop="16dp"
+                android:id="@+id/ibpreview41"
+                android:onClick="Assign"
+                android:src="@drawable/preview"
+                android:scaleType="fitCenter"
+                style="@style/btnstyle1"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_cs"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bb7"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.acer.firstapp.Cs">
+    <TextView
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:textColor="#84243b"
+        android:id="@+id/tv"
+        android:gravity="center"
+        android:text="Control System"
+        android:fontFamily="sans-serif-condensed"/>
+    <LinearLayout
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="3sp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notes"
+            android:onClick="changeme"
+            android:layout_marginRight="4sp"
+            android:id="@+id/btnNotes"
+            style="@style/btnstyle"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Previous Yrs "
+            android:layout_marginRight="4sp"
+            android:id="@+id/btnPrev"
+            android:onClick="changeme"
+            android:gravity="center"
+            style="@style/btnstyle"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Assignments "
+            android:onClick="changeme"
+            android:id="@+id/btnAssignments"
+            style="@style/btnstyle"
+            />
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_margin="10sp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/fragment"></FrameLayout>
+
+</RelativeLayout>
+
+
